@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Classroom Poli - Iniciar Sesión</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="login-body">
+  <!-- Contenedor del formulario de login -->
+  <div class="login-container">
+    <!-- Logo superior -->
+    
+
+    <h2>Iniciar Sesión</h2>
+
+    <form id="loginForm">
+      <input type="text" id="usuario" placeholder="Usuario" required />
+      <input type="password" id="password" placeholder="Contraseña" required />
+      <select id="rol" required>
+        <option value="" disabled selected>Selecciona tu rol</option>
+        <option value="estudiante">Estudiante</option>
+        <option value="docente">Docente</option>
+      </select>
+      <button type="submit">Ingresar</button>
+      <a href="#">¿Olvidaste tu contraseña?</a>
+    </form>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
